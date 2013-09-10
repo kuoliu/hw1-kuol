@@ -10,7 +10,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** This is the question type
- * Updated by JCasGen Mon Sep 09 23:22:11 EDT 2013
+ * Updated by JCasGen Tue Sep 10 02:04:49 EDT 2013
  * XML source: E:/CMU_1st_Semester/11791/assignment/hw1-kuol/src/main/resources/hw1-kuol-typesystem.xml
  * @generated */
 public class Question extends QuestionAnswer {

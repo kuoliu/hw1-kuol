@@ -11,7 +11,7 @@ import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.Type;
 
 /** This is the question type
- * Updated by JCasGen Mon Sep 09 23:22:11 EDT 2013
+ * Updated by JCasGen Tue Sep 10 02:04:49 EDT 2013
  * @generated */
 public class Question_Type extends QuestionAnswer_Type {
   /** @generated */

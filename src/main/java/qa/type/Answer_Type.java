@@ -13,7 +13,7 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** This is the answer type
- * Updated by JCasGen Mon Sep 09 23:22:11 EDT 2013
+ * Updated by JCasGen Tue Sep 10 02:04:49 EDT 2013
  * @generated */
 public class Answer_Type extends QuestionAnswer_Type {
   /** @generated */
@@ -44,20 +44,20 @@ public class Answer_Type extends QuestionAnswer_Type {
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("qa.type.Answer");
  
   /** @generated */
-  final Feature casFeat_YesOrNo;
+  final Feature casFeat_yesOrNo;
   /** @generated */
-  final int     casFeatCode_YesOrNo;
+  final int     casFeatCode_yesOrNo;
   /** @generated */ 
   public String getYesOrNo(int addr) {
-        if (featOkTst && casFeat_YesOrNo == null)
-      jcas.throwFeatMissing("YesOrNo", "qa.type.Answer");
-    return ll_cas.ll_getStringValue(addr, casFeatCode_YesOrNo);
+        if (featOkTst && casFeat_yesOrNo == null)
+      jcas.throwFeatMissing("yesOrNo", "qa.type.Answer");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_yesOrNo);
   }
   /** @generated */    
   public void setYesOrNo(int addr, String v) {
-        if (featOkTst && casFeat_YesOrNo == null)
-      jcas.throwFeatMissing("YesOrNo", "qa.type.Answer");
-    ll_cas.ll_setStringValue(addr, casFeatCode_YesOrNo, v);}
+        if (featOkTst && casFeat_yesOrNo == null)
+      jcas.throwFeatMissing("yesOrNo", "qa.type.Answer");
+    ll_cas.ll_setStringValue(addr, casFeatCode_yesOrNo, v);}
     
   
 
@@ -70,8 +70,8 @@ public class Answer_Type extends QuestionAnswer_Type {
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());
 
  
-    casFeat_YesOrNo = jcas.getRequiredFeatureDE(casType, "YesOrNo", "uima.cas.String", featOkTst);
-    casFeatCode_YesOrNo  = (null == casFeat_YesOrNo) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_YesOrNo).getCode();
+    casFeat_yesOrNo = jcas.getRequiredFeatureDE(casType, "yesOrNo", "uima.cas.String", featOkTst);
+    casFeatCode_yesOrNo  = (null == casFeat_yesOrNo) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_yesOrNo).getCode();
 
   }
 }

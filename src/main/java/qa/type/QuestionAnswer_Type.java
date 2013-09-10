@@ -14,7 +14,7 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** This is the father type for Question/Answer
- * Updated by JCasGen Mon Sep 09 23:22:11 EDT 2013
+ * Updated by JCasGen Tue Sep 10 02:04:49 EDT 2013
  * @generated */
 public class QuestionAnswer_Type extends Annotation_Type {
   /** @generated */

@@ -10,7 +10,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** This is the answer type
- * Updated by JCasGen Mon Sep 09 23:22:11 EDT 2013
+ * Updated by JCasGen Tue Sep 10 02:04:49 EDT 2013
  * XML source: E:/CMU_1st_Semester/11791/assignment/hw1-kuol/src/main/resources/hw1-kuol-typesystem.xml
  * @generated */
 public class Answer extends QuestionAnswer {
@@ -62,21 +62,21 @@ public class Answer extends QuestionAnswer {
  
     
   //*--------------*
-  //* Feature: YesOrNo
+  //* Feature: yesOrNo
 
-  /** getter for YesOrNo - gets This is the answer type, father for AnswerScore
+  /** getter for yesOrNo - gets This is the answer type, father for AnswerScore
    * @generated */
   public String getYesOrNo() {
-    if (Answer_Type.featOkTst && ((Answer_Type)jcasType).casFeat_YesOrNo == null)
-      jcasType.jcas.throwFeatMissing("YesOrNo", "qa.type.Answer");
-    return jcasType.ll_cas.ll_getStringValue(addr, ((Answer_Type)jcasType).casFeatCode_YesOrNo);}
+    if (Answer_Type.featOkTst && ((Answer_Type)jcasType).casFeat_yesOrNo == null)
+      jcasType.jcas.throwFeatMissing("yesOrNo", "qa.type.Answer");
+    return jcasType.ll_cas.ll_getStringValue(addr, ((Answer_Type)jcasType).casFeatCode_yesOrNo);}
     
-  /** setter for YesOrNo - sets This is the answer type, father for AnswerScore 
+  /** setter for yesOrNo - sets This is the answer type, father for AnswerScore 
    * @generated */
   public void setYesOrNo(String v) {
-    if (Answer_Type.featOkTst && ((Answer_Type)jcasType).casFeat_YesOrNo == null)
-      jcasType.jcas.throwFeatMissing("YesOrNo", "qa.type.Answer");
-    jcasType.ll_cas.ll_setStringValue(addr, ((Answer_Type)jcasType).casFeatCode_YesOrNo, v);}    
+    if (Answer_Type.featOkTst && ((Answer_Type)jcasType).casFeat_yesOrNo == null)
+      jcasType.jcas.throwFeatMissing("yesOrNo", "qa.type.Answer");
+    jcasType.ll_cas.ll_setStringValue(addr, ((Answer_Type)jcasType).casFeatCode_yesOrNo, v);}    
   }
 
     

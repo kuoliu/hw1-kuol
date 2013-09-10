@@ -12,7 +12,6 @@
 	OR CONDITIONS OF ANY * KIND, either express or implied. See the License for 
 	the * specific language governing permissions and limitations * under the 
 	License. *************************************************************** -->
-	
 <typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
 	<name>hw1-kuol-typesystem</name>
 	<description>This is a Question Answer Type System</description>
@@ -52,7 +51,7 @@
 			<supertypeName>qa.type.QuestionAnswer</supertypeName>
 			<features>
 				<featureDescription>
-					<name>YesOrNo</name>
+					<name>yesOrNo</name>
 					<description>This is the answer type, father for AnswerScore</description>
 					<rangeTypeName>uima.cas.String</rangeTypeName>
 				</featureDescription>
